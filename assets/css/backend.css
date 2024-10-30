@@ -1,0 +1,11 @@
+.hello-bar-wp-wrap .field-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.hello-bar-wp-wrap .hello-bar-input {
+    width: 100%;
+    min-width: 320px;
+}
+.form-table td {
+	vertical-align: top;
+}

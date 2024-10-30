@@ -1,0 +1,40 @@
+.hello-bar-wp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.admin-bar .hello-bar-wp {
+    top: 32px;
+}
+.hello-bar-wp-inner-container {
+    padding: 15px 30px 15px;
+}
+.hello-bar-wp-content {
+    text-align: center;
+}
+.hello-bar-wp-content p {
+    margin: 0;
+    line-height: 1.2;
+}
+.hello-bar-wp-close {
+    position: absolute;
+    right: 14px;
+    font-size: 23px;
+    line-height: 1;
+    top: 14px;
+}
+.hello-bar-wp-content p a {
+    background: #fff;
+    box-shadow: 0 2px 0 #d6d6d6;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: .4em 1em;
+    display: inline-block;
+    margin-left: 10px;
+}
+.hello-bar-wp-content p a:hover {
+	opacity: 0.8;
+}
